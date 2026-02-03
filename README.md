@@ -81,7 +81,6 @@ Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana est�
     * Solidity
  - Solana
     * Rust
-    * Anchor Framework
 
 En conclusión, patrones comunes en EVM (como storage global) no son válidos en Solana, lo que nos obliga a desarrollar un diseño explícito basado en cuentas y control de acceso estricto.
 Ambos modelos, responden a necesidades y objetivos diferentes.
