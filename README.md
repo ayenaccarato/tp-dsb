@@ -1,6 +1,5 @@
-                               Trabajo Práctico - Desarrollo de Software para Blockchain 2026
-
-                                                    EVM y Solana
+<h1 align="center">Trabajo Práctico – Desarrollo de Software para Blockchain 2026</h1>
+<h2 align="center">EVM y Solana</h2>
 
 Las blockchain compatibles con EVM (Ethereum Virtual Machine) y Solana representan 2 modelos de ejecución y diseños distintos para el desarrollo de contratos inteligentes. 
 Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana está diseñada para tener un alto rendimiento, paralelismo y separación entre lógica y estado.
