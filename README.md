@@ -5,7 +5,7 @@
 Las blockchain compatibles con EVM (Ethereum Virtual Machine) y Solana representan 2 modelos de ejecución y diseños distintos para el desarrollo de contratos inteligentes. 
 Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana está diseñada para tener un alto rendimiento, paralelismo y separación entre lógica y estado.
 
-* Modelo de Ejecución
+## Modelo de Ejecución
  - EVM
     * Cada contrato es una máquina de estado con almacenamiento propio
     * Las transacciones se ejecutan de forma secuencial
@@ -18,7 +18,7 @@ Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana est�
     * Las transacciones pueden ejecutarse en paralelo si no comparten cuentas
     * El programa solo define reglas y validaciones
 
-* Almacenamiento de Estado
+## Almacenamiento de Estado
  - EVM
     * El estado vive dentro del contrato
         mapping (uint256 => Libro) public libros;
@@ -39,7 +39,7 @@ Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana est�
         pub titulo: String,
     }
 
-* Separación entre lógica y datos
+## Separación entre lógica y datos
  - EVM
     * Lógica y datos está mezclado
     * El contrato controla y posee su estado
@@ -49,7 +49,7 @@ Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana est�
     * Las cuentas tienen dueño
     * El programa valida permisos y modifica datos
 
-* Direccionamiento y Determinismo
+## Direccionamiento y Determinismo
  - EVM
     * Las direcciones de contratos son generadas automaticamente
     * El direccionamiento es opaco
@@ -59,7 +59,7 @@ Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana est�
     * Direcciones determinísticas basadas en seeds
     * El programa puede calcular direcciones sin almacenarlas
 
-* Control de acceso
+## Control de acceso
  - EVM
     * Uso de msg.sender
     * Validaciones simples dentro del cnotrato
@@ -68,7 +68,7 @@ Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana est�
     * Validación manual de autoridad
     * Mayor control y seguridad
 
-* Costos y Performance
+## Costos y Performance
  - EVM
     * Costos de gas variables
     * Ejecución más lenta
@@ -77,7 +77,7 @@ Por ejemplo, mientras que EVM prioriza simplicidad y estado interno, Solana est�
     * Alto rendimiento
     * Miles de transacciones por segundo
 
-* Desarrollo y tooling
+## Desarrollo y tooling
  - EVM
     * Solidity
  - Solana
